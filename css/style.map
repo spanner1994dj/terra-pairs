@@ -4,11 +4,11 @@
 	"sources": [
 		"../scss/style.scss",
 		"../scss/base/_base.scss",
-		"../scss/utilities/_variables.scss",
+		"../scss/variables/variables.scss",
 		"../scss/layout/_header.scss"
 	],
 	"sourcesContent": [
-		"\n\n@import 'base/base';\n@import 'utilities/variables';\n@import 'layout/header'\n\n",
+		"\n\n@import 'base/base';\n@import 'variables/variables';\n@import 'layout/header'\n\n",
 		"@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');\n*{\n    box-sizing: border-box;\n    font-family: serif;\n    font-weight: normal;\n    background: none;\n    border: none;\n    letter-spacing: .4px;\n}\nhtml, body{\n    width: 100%;\n    height: 100%;\n    margin: 0px;\n    padding: 0px;\n}\np{\n    width: 100%;\n}\na{\n    text-decoration: none;\n    color: inherit;\n}\nhr.styled {\n    border: 0;\n    height: 1px;\n    background: #333;\n    background-image: linear-gradient(to right, #ccc, #333, #ccc);\n}\nhr.styled-small{\n    border: 0;\n    height: 1px;\n    background: #333;\n    background-image: linear-gradient(to right, #ccc, #333, #ccc);\n    width: 10px;\n}",
 		"",
 		"\n\n.email {\n    text-transform: uppercase;\n}\n  \n.book {\n    text-transform: uppercase;\n    background-color: #af473c;\n    color: #fff;\n}\n  \n.title{\n    text-transform: uppercase;\n    \n\n}\n\nheader{\n    p{\n        font-size: 20px;\n        font-weight: 200;\n    }\n}\n"
