@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "base.css",
+	"sources": [
+		"../../scss/base/base.scss"
+	],
+	"sourcesContent": [
+		"\n\n.email{\n    text-transform: uppercase;\n}\n\n\n\n.book{\n    text-transform: uppercase;\n}\n\n\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,MAAM,CAAA;EACF,cAAc,EAAE,SAAS,GAC5B;;;AAID,AAAA,KAAK,CAAA;EACD,cAAc,EAAE,SAAS,GAC5B"
+}

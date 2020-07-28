@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/base/base.scss"
+	],
+	"sourcesContent": [
+		"\n\n@import 'base/base';\n// @import 'variables/variables';\n// @import 'media/media';\n// @import 'variables/pseudo';\n// @import 'media/mixin';",
+		"\n\n.email{\n    text-transform: uppercase;\n}\n\n\n\n.book{\n    text-transform: uppercase;\n}\n\n\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";ACEA,AAAA,MAAM,CAAA;EACF,cAAc,EAAE,SAAS,GAC5B;;;AAID,AAAA,KAAK,CAAA;EACD,cAAc,EAAE,SAAS,GAC5B"
+}
