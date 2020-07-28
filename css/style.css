@@ -1,9 +1,59 @@
-/* line 3, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/base.scss */
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+/* line 2, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+  font-family: serif;
+  font-weight: normal;
+  background: none;
+  border: none;
+  letter-spacing: .4px; }
+
+/* line 10, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+/* line 16, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
+p {
+  width: 100%; }
+
+/* line 19, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* line 23, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
+hr.styled {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+
+/* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
+hr.styled-small {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 10px; }
+
+/* line 3, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .email {
   text-transform: uppercase; }
 
-/* line 9, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/base.scss */
+/* line 7, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .book {
   text-transform: uppercase; }
+
+/* line 11, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+.title {
+  text-transform: uppercase; }
+
+/* line 17, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+header p {
+  font-size: 20px;
+  font-weight: 200; }
 
 /*# sourceMappingURL=style.css.map */
