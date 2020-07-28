@@ -45,13 +45,15 @@ hr.styled-small {
 
 /* line 7, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .book {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-color: #af473c;
+  color: #fff; }
 
-/* line 11, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 13, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .title {
   text-transform: uppercase; }
 
-/* line 17, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 20, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 header p {
   font-size: 20px;
   font-weight: 200; }
