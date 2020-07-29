@@ -5,6 +5,7 @@ header{
     background-size: cover;
     height:500px;
     color: #fff;
+    display: flex;
     
     p{
         font-size: 20px;
@@ -12,18 +13,28 @@ header{
     }
 }
 
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+
 .logo-top{
     font-family: 'Coming Soon', cursive;
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 600;
     color: #af473c;
+    text-align: center;
 }
 
 .logo-bottom{
     font-family:'Cairo' ,sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 200;
+    text-align: center;
+    letter-spacing: 5px;
 }
 
 .logo{
@@ -32,16 +43,44 @@ header{
 
 
 .action{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: right;
-    
+    text-align: right;
+    margin-right: 10px;
+    margin-left:0 ;
+    width: 100%;
+    //border: solid 1px blue;
+}
+
+.in-touch{
+    //border: solid 1px green;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    position: absolute;
+    margin-right: 40px;
 }
 
 .email {
     text-transform: uppercase;
+    margin-right: 20px;
+    //border: solid 1px gold;
+    width: auto;
+    height: max-content;
+    justify-content: right;
+    text-align: right;
 }
-  
+
+.telephone{
+    //border: solid 1px gold;
+    width: auto;
+    height: max-content;
+}
+
 .book {
-    padding:10px 20px ;
+    padding: 2px 20px ;
     text-transform: uppercase;
     background-color: #af473c;
     color: #fff;
@@ -50,17 +89,27 @@ header{
   
 .title{
     text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: 40px;
+
+    .slogan{
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 5px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
 }
-
-
-
 
 .nav-bar{
     display:block;
-    top: 50%;
+    top: 70%;
     width: 100%;
     height: 50px;
-    border: solid 1px blue;
+    //border: solid 1px blue;
     position: absolute;
     text-align: right;
     
@@ -70,7 +119,7 @@ header{
         display: flex;
         flex-direction: row;
 
-        border: solid 1px green;
+        //border: solid 1px green;
 
         width: 100%;
         height:100%;
@@ -84,7 +133,7 @@ header{
             padding:13px 15px;
             text-align: right;
             text-transform: uppercase;
-            border: solid 1px gold;
+            //border: solid 1px gold;
             vertical-align: middle;
             margin-right:10px ;
             
@@ -92,6 +141,8 @@ header{
 
             a {
                 font-family:'Cairo' ,sans-serif;
+                letter-spacing: 3px;
+                font-weight: 200;
             }
         }
     }
