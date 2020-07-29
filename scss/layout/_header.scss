@@ -1,6 +1,6 @@
 
 header{
-    background-image: url(../../img/lobster1.jpg);
+    background-image: url(../img/lobster1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:500px;
@@ -49,7 +49,6 @@ header{
     justify-content: right;
     text-align: right;
     margin-right: 10px;
-    margin-left:0 ;
     width: 100%;
     //border: solid 1px blue;
 }
@@ -106,12 +105,13 @@ header{
 
 .nav-bar{
     display:block;
-    top: 70%;
+    // top: 70%;
     width: 100%;
     height: 50px;
     //border: solid 1px blue;
-    position: absolute;
+    // position: absolute;
     text-align: right;
+    background-color: #af473c;
     
 
     ul{
@@ -125,7 +125,7 @@ header{
         height:100%;
         text-align: right;
         justify-content: right;
-        background-color: #af473c;
+        // background-color: #af473c;
         margin-top:0;
         vertical-align: middle;
     
@@ -135,8 +135,8 @@ header{
             text-transform: uppercase;
             //border: solid 1px gold;
             vertical-align: middle;
-            margin-right:10px ;
-            
+            margin-right:10px;
+            color: white;
             list-style: none;
 
             a {
