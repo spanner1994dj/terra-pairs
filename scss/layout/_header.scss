@@ -87,8 +87,12 @@ header{
             border: solid 1px gold;
             vertical-align: middle;
             margin-right:10px ;
-            font-family:'Cairo' ,sans-serif;
+            
             list-style: none;
+
+            a {
+                font-family:'Cairo' ,sans-serif;
+            }
         }
     }
 }
