@@ -100,8 +100,6 @@ header {
   text-align: right; }
   /* line 68, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .nav-bar ul {
-    font-family: 'Cairo' ,sans-serif;
-    list-style: none;
     display: flex;
     flex-direction: row;
     border: solid 1px green;
@@ -112,12 +110,15 @@ header {
     background-color: #af473c;
     margin-top: 0;
     vertical-align: middle; }
-  /* line 85, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
-  .nav-bar li {
-    padding: 0 15px;
-    text-align: right;
-    text-transform: uppercase;
-    border: solid 1px gold;
-    vertical-align: middle; }
+    /* line 83, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+    .nav-bar ul li {
+      padding: 13px 15px;
+      text-align: right;
+      text-transform: uppercase;
+      border: solid 1px gold;
+      vertical-align: middle;
+      margin-right: 10px;
+      font-family: 'Cairo' ,sans-serif;
+      list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
