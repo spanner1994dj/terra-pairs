@@ -1,0 +1,43 @@
+
+
+
+
+// Services cards
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .content-img{
+            width: 400px;
+            height: 300px;
+        }
+
+        h4{
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        .content-span{
+            width: 28px;
+            height: 1px;
+            background-color: black;
+        }
+
+        p{
+            text-align: center;
+        }
+
+    }
+}
+
+
+
