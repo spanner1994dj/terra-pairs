@@ -1,6 +1,6 @@
 
 header{
-    background-image: url(../../Lobster1.jpg);
+    background-image: url(../../img/lobster1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:500px;
@@ -67,10 +67,13 @@ header{
         display: flex;
         flex-direction: row;
         list-style: none;
+        border: solid 1px green;
+        width: 100%;
+
     }
+
     li{
-        border: solid 1px blue;
-        padding:10px;
+        padding-left:10px;
         font-size: 25px;
         
     }

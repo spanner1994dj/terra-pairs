@@ -41,7 +41,7 @@ hr.styled-small {
 
 /* line 2, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 header {
-  background-image: url(../../Lobster1.jpg);
+  background-image: url(../../img/lobster1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -101,11 +101,12 @@ header {
   .nav-bar ul {
     display: flex;
     flex-direction: row;
-    list-style: none; }
-  /* line 71, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+    list-style: none;
+    border: solid 1px green;
+    width: 100%; }
+  /* line 75, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .nav-bar li {
-    border: solid 1px blue;
-    padding: 10px;
+    padding-left: 10px;
     font-size: 25px; }
 
 /*# sourceMappingURL=style.css.map */
