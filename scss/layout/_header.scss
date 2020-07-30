@@ -130,10 +130,14 @@ header{
     height: 50px;
     text-align: right;
     background-color: #af473c;
+
+    
     
     .media{
         text-align: right;
         justify-content: right;
+        margin-right: 42px;
+        width: auto;
     }
 
     ul{
@@ -157,7 +161,7 @@ header{
             text-transform: uppercase;
             //border: solid 1px gold;
             vertical-align: middle;
-            margin-right:10px;
+            margin-right:40px;
             color: white;
             list-style: none;
 
