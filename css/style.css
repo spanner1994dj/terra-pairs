@@ -515,7 +515,7 @@ header {
 /* line 25, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .logo-top {
   font-family: 'Coming Soon', cursive;
-  font-size: 30px;
+  font-size: 50px;
   font-style: italic;
   font-weight: 600;
   color: #af473c;
@@ -524,7 +524,7 @@ header {
 /* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .logo-bottom {
   font-family: 'Cairo' ,sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 200;
   text-align: center;
   letter-spacing: 5px; }
