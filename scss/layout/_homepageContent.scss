@@ -39,10 +39,28 @@
     }
 }
 
-
+.booking-bckgrnd {
+    background-color: black;
+    height: 150px;
+}
 
 .booking-ctn {
     display: flex;
+    align-items: center;
+
+    p{
+        color: white;
+    }
+
+    div{
+        background-color: white;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        justify-content: center;
+        
+    }
 }
 
 .partners {

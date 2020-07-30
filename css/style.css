@@ -761,8 +761,25 @@ footer a {
   text-align: center;
 }
 
+.booking-bckgrnd {
+  background-color: black;
+  height: 150px;
+}
+
 .booking-ctn {
   display: flex;
+  align-items: center;
+}
+.booking-ctn p {
+  color: white;
+}
+.booking-ctn div {
+  background-color: white;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
 }
 
 .partners {
