@@ -625,6 +625,8 @@ header p {
 .nav-bar .media {
   text-align: right;
   justify-content: right;
+  margin-right: 42px;
+  width: auto;
 }
 .nav-bar ul {
   display: flex;
@@ -641,7 +643,7 @@ header p {
   text-align: right;
   text-transform: uppercase;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 40px;
   color: white;
   list-style: none;
 }
