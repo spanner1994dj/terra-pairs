@@ -1,9 +1,28 @@
 .carousel {
 
-    img{
-        width: 300px;
+    .crsl-img{
+        width: 100%;
         height:300px;
-        
+    }
+
+    .crsl-img-1{
+        background: url(../../img/sliced.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .crsl-img-2 {
+        background:"../img/sliced.jpg";
+    }
+
+    .crsl-img-3 {
+        background:"../img/sliced.jpg";
+    }
+
+    .crsl-img-4 {
+        background:"../img/sliced.jpg";
     }
 
 }
+
+

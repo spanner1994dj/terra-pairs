@@ -41,3 +41,16 @@
 
 
 
+.booking-ctn {
+    display: flex;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 200px;
+        height: 125px;
+    }
+}
