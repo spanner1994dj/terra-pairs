@@ -43,6 +43,16 @@ hr.styled-small {
   width: 1200px;
   margin: auto;
 }
+@media screen and (max-width: 768px) {
+  .media {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .media {
+    width: 970px;
+  }
+}
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
