@@ -545,12 +545,10 @@ header {
   margin-right: 20px;
   margin-top: 40px;
   width: auto;
-  height: auto;
-  border: solid 1px blue; }
+  height: auto; }
 
 /* line 62, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .in-touch {
-  border: solid 1px green;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
