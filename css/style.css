@@ -718,9 +718,11 @@ footer {
 
 /* line 101, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 .line {
-  width: 30px;
+  width: 100px;
   height: 1px;
-  background-color: white; }
+  background-color: white;
+  margin-top: -10px;
+  margin-bottom: 10px; }
 
 /* line 7, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
 .cards {
