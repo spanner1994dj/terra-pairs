@@ -654,20 +654,17 @@ footer a {
   font-weight: 200;
 }
 
-.ft-align {
-  width: 100%;
+.ft-align .ft-content {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: space-evenly;
-  margin-left: 150px;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 300px;
   text-align: center;
   justify-content: center;
 }
@@ -678,7 +675,7 @@ footer a {
   margin-left: 0px;
   margin-bottom: 15px;
   justify-content: center;
-  max-width: max-content;
+  width: 300px;
   text-align: left;
 }
 .contact li {
@@ -692,12 +689,12 @@ footer a {
 }
 
 .sections {
-  width: 25%;
+  width: 300px;
   line-height: 1.57;
 }
 
 .follow-us {
-  width: 25%;
+  width: 300px;
   list-style: none;
 }
 .follow-us h3 {
@@ -706,6 +703,7 @@ footer a {
 
 .copyright p {
   font-weight: 200;
+  text-align: center;
 }
 
 .cards {
