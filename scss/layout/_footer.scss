@@ -29,21 +29,27 @@ footer{
    // border: solid 1px yellow;
    display: flex;
    flex-direction: row;
+   flex-wrap: nowrap;
    justify-content: center;
    align-content: space-evenly;
+   margin-left: 150px;
 
 }
 
 .contact{
    display: flex;
    flex-direction: column;
-   width: 33.33%;
-   border: solid 1px aqua;
+   width: 25%;
+   //border: solid 1px aqua;
    text-align: center;
    justify-content: center;
 
+   h3{
+      text-align: left;
+   }
+
    .address{
-      margin-left: 175px;
+      margin-left: 0px;
       margin-bottom: 15px;
       justify-content: center;
       // border: solid 1px aqua;
@@ -59,34 +65,37 @@ footer{
    .number{
       // border: solid 1px aqua;
       width: max-content;
-      margin-left: 175px;
+     
    }
 
    .mail{
       // border: solid 1px aqua;
       width: max-content;
-      margin-left: 175px;
+      
    }
 }
 
 .sections{
    width:25%;
    line-height: 1.57;
-   border: solid 1px aqua;
+   //border: solid 1px aqua;
 }
 
 .follow-us{
    width: 25%;
-   border: solid 1px aqua;
+   //border: solid 1px aqua;
    list-style: none;
    h3{
-      text-align: center;
+      text-align: left;
    }
 
 }
 
 .copyright{
-   
+   p{
+      font-weight: 200;
+               
+   }
 }
 
 
