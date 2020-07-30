@@ -514,7 +514,7 @@ header p {
 
 .logo-top {
   font-family: "Coming Soon", cursive;
-  font-size: 30px;
+  font-size: 50px;
   font-style: italic;
   font-weight: 600;
   color: #af473c;
@@ -523,7 +523,7 @@ header p {
 
 .logo-bottom {
   font-family: "Cairo", sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 200;
   text-align: center;
   letter-spacing: 5px;
@@ -545,11 +545,9 @@ header p {
   margin-top: 40px;
   width: auto;
   height: auto;
-  border: solid 1px blue;
 }
 
 .in-touch {
-  border: solid 1px green;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -572,6 +570,7 @@ header p {
 .telephone {
   width: auto;
   height: max-content;
+  margin-left: 10px;
 }
 
 .book {
@@ -605,6 +604,10 @@ header p {
   text-align: right;
   background-color: #af473c;
 }
+.nav-bar .media {
+  text-align: right;
+  justify-content: right;
+}
 .nav-bar ul {
   display: flex;
   flex-direction: row;
@@ -627,6 +630,81 @@ header p {
 .nav-bar ul li a {
   font-family: "Cairo", sans-serif;
   letter-spacing: 3px;
+  font-weight: 200;
+}
+
+footer {
+  background-color: #af473c;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  align-content: space-evenly;
+  justify-content: center;
+  align-content: center;
+  line-height: 1.5;
+}
+footer li {
+  font-weight: 200;
+}
+footer a {
+  font-weight: 200;
+}
+
+.ft-align {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-evenly;
+  margin-left: 150px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+}
+.contact h3 {
+  text-align: left;
+}
+.contact .address {
+  margin-left: 0px;
+  margin-bottom: 15px;
+  justify-content: center;
+  max-width: max-content;
+  text-align: left;
+}
+.contact li {
+  text-transform: capitalize;
+}
+.contact .number {
+  width: max-content;
+}
+.contact .mail {
+  width: max-content;
+}
+
+.sections {
+  width: 25%;
+  line-height: 1.57;
+}
+
+.follow-us {
+  width: 25%;
+  list-style: none;
+}
+.follow-us h3 {
+  text-align: left;
+}
+
+.copyright p {
   font-weight: 200;
 }
 

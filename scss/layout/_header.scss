@@ -24,7 +24,7 @@ header{
 
 .logo-top{
     font-family: 'Coming Soon', cursive;
-    font-size: 30px;
+    font-size: 50px;
     font-style: italic;
     font-weight: 600;
     color: #af473c;
@@ -33,7 +33,7 @@ header{
 
 .logo-bottom{
     font-family:'Cairo' ,sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 200;
     text-align: center;
     letter-spacing: 5px;
@@ -56,11 +56,11 @@ header{
     margin-top: 40px;
     width: auto;
     height: auto ;
-    border: solid 1px blue;
+    //border: solid 1px blue;
 }
 
 .in-touch{
-    border: solid 1px green;
+    //border: solid 1px green;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -86,6 +86,7 @@ header{
     //border: solid 1px gold;
     width: auto;
     height: max-content;
+    margin-left: 10px;
 }
 
 .book {
@@ -120,6 +121,10 @@ header{
     text-align: right;
     background-color: #af473c;
     
+    .media{
+        text-align: right;
+        justify-content: right;
+    }
 
     ul{
 
