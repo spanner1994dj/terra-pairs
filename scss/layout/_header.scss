@@ -3,9 +3,11 @@ header{
     background-image: url(../img/lobster1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:500px;
+    height:450px;
     color: #fff;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     
     p{
         font-size: 20px;
@@ -17,7 +19,7 @@ header{
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-    margin-top: 20px; 
+    margin-top: 40px; 
 }
 
 .logo-top{
@@ -44,27 +46,35 @@ header{
 
 .action{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 20px;
     justify-content: right;
     text-align: right;
-    margin-right: 10px;
-    width: 100%;
-    //border: solid 1px blue;
+    margin-right: 20px;
+    margin-top: 40px;
+    width: auto;
+    height: auto ;
+    border: solid 1px blue;
 }
 
 .in-touch{
-    //border: solid 1px green;
+    border: solid 1px green;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     height: max-content;
+    width: auto;
     position: absolute;
     margin-right: 40px;
+    justify-content: right;
+    
 }
 
 .email {
     text-transform: uppercase;
-    margin-right: 20px;
+    margin-right: 0;
     //border: solid 1px gold;
     width: auto;
     height: max-content;
@@ -89,7 +99,7 @@ header{
 .title{
     text-transform: uppercase;
     margin-top: 10px;
-    margin-right: 40px;
+    margin-right: 35px;
 
     .slogan{
         font-size: 50px;
