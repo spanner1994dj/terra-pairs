@@ -596,6 +596,14 @@ header p {
   font-weight: 200;
   letter-spacing: 2px;
 }
+.title .line {
+  width: 200px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  right: 40px;
+  margin-top: -20px;
+}
 
 .nav-bar {
   display: block;
@@ -704,6 +712,14 @@ footer a {
 .copyright p {
   font-weight: 200;
   text-align: center;
+}
+
+.line {
+  width: 100px;
+  height: 1px;
+  background-color: white;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .cards {
