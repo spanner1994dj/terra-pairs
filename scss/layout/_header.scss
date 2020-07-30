@@ -112,6 +112,16 @@ header{
         font-weight: 200;
         letter-spacing: 2px;
     }
+
+    .line{
+        width: 200px;
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        right: 40px;
+        margin-top: -20px;
+
+    }
 }
 
 .nav-bar{
