@@ -622,11 +622,9 @@ header p {
   text-align: right;
   background-color: #af473c;
 }
-.nav-bar .media {
-  text-align: right;
+.nav-bar .nav-bar-contents {
+  display: flex;
   justify-content: right;
-  margin-right: 42px;
-  width: auto;
 }
 .nav-bar ul {
   display: flex;
@@ -639,7 +637,7 @@ header p {
   vertical-align: middle;
 }
 .nav-bar ul li {
-  padding: 13px 15px;
+  padding: 13px 0px;
   text-align: right;
   text-transform: uppercase;
   vertical-align: middle;
