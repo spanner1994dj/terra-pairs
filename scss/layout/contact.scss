@@ -1,0 +1,71 @@
+
+@import '../variables/variables.scss';
+
+
+*{
+   font-family:'Cairo' ,sans-serif;
+}
+
+/*contact form styling */
+.contact-form{
+   width: 100%;
+   justify-content: center;
+   align-content: center;
+   //border: solid 1px blue;
+   padding: 10px 25%;
+}
+
+.container {
+   font-size: 16px;
+   border-radius: 35px;
+   background-color:$terra-red;
+   padding: 20px;
+   color: #fff;
+   text-transform: uppercase;
+   width:50%;
+   justify-content: center;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   -ms-border-radius: 35px;
+   -o-border-radius: 35px;
+}
+
+input[type=text], select, textarea {
+   width: 100%;
+   font-size: 16px;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 15px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}
+ 
+ 
+input[type=submit] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;
+   width: 100px;
+   justify-content: center;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}
+ 
+ 
+input[type=submit]:hover {
+   background-color: #45a049;
+   
+}
+ 
+ 

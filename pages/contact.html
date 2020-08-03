@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/layout/contact.css">
+      <script src="https://www.google.com/recaptcha/api.js"></script>
+   </head>
+   <body>
+      <h1>Contact Us</h1>
+      <div class="contact-form">
+         <div class="container">
+            <form action="action_page.php">
+         
+               <label for="fname">First Name:</label>
+               <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+               <label for="lname">Last Name:</label>
+               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+               <label for="email">Email:</label>
+               <input type="text" id="email-add" name="mail" placeholder="Email..">
+            
+               <label for="tel-num">Telephone Number:</label>
+               <input type="text" id="numb" name="telephone" placeholder="Telephone Number..">
+            
+               <label for="subject">Subject:</label>
+               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+               <!--Use this site key in the HTML code your site servers to users!!!
+               6Lcg47kZAAAAAAQkalO5bE9FATnS9tQS7LdYNYbB -->
+               
+               <!-- Secret key for communication bettween site and recpatcha
+               6Lcg47kZAAAAAFDzknj-OHvS8AGvcSmErQJXc9-c -->
+
+               <input type="submit" value="Submit">
+         
+            </form>
+           
+         </div>
+      </div>
+   </body>
+</html>
