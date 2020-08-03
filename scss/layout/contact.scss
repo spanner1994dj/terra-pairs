@@ -2,6 +2,10 @@
 @import '../variables/variables.scss';
 
 
+*{
+   font-family:'Cairo' ,sans-serif;
+}
+
 /*contact form styling */
 .contact-form{
    width: 100%;
