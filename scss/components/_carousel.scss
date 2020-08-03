@@ -1,28 +1,69 @@
 .carousel {
 
-    .crsl-img{
-        width: 100%;
-        height:300px;
-    }
+    .slide{
+        position: relative;
+     
+        .quote{
+            position: absolute;
+            top: 20px;
+            color: white;
+            word-wrap: none;
+            margin-left: 30px;
+            font-size: 30px;
+            font-weight: 300;
+        }
 
-    .crsl-img-1{
-        background: url(../../img/sliced.jpg) no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
+        .crsl-img{
+            width: 100%;
+            height: 400px;
+        }
 
-    .crsl-img-2 {
-        background:"../img/sliced.jpg";
-    }
+        .crsl-img-1{
+            background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
 
-    .crsl-img-3 {
-        background:"../img/sliced.jpg";
-    }
+        .crsl-img-2 {
+            background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
 
-    .crsl-img-4 {
-        background:"../img/sliced.jpg";
-    }
+        .crsl-img-3 {
+            background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
 
+        .crsl-img-4 {
+            background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .quote-name{
+            position: absolute;
+            color: white;
+            top: 210px;
+            right: 900px;
+            
+            p{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+
+    }
 }
 
 
+.slide-dash{
+    width: 400px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 210px;
+    right: 700px;
+    margin: auto;
+}
