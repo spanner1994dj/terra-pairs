@@ -5,7 +5,7 @@
 		"../../scss/variables/variables.scss"
 	],
 	"sourcesContent": [
-		""
+		"$terra-red:#af473c;"
 	],
 	"names": [],
 	"mappings": ""

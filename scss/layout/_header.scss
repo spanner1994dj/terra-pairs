@@ -27,7 +27,7 @@ header{
     font-size: 50px;
     font-style: italic;
     font-weight: 600;
-    color: #af473c;
+    color: $terra-red;
     text-align: center;
 }
 
@@ -92,7 +92,7 @@ header{
 .book {
     padding: 2px 20px ;
     text-transform: uppercase;
-    background-color: #af473c;
+    background-color: $terra-red;
     color: #fff;
     font-size:20px;
 }
