@@ -6,12 +6,25 @@
    font-family:'Cairo' ,sans-serif;
 }
 
+h1{
+   text-align: center;
+}
+
+p{
+   font-size: 18px;
+   text-align: center;
+   margin-top: 25px;
+}
+
 .temp{
    background-color: $terra-red;
    color: #fff;
    text-decoration: none;
    font-size: 20px;
    padding: 10px;
+   position: relative;
+   right: -45%;
+   margin-bottom: 10px;
 }
 
 /*contact form styling */
@@ -45,7 +58,7 @@ input[type=text], select, textarea {
    border: 1px solid #ccc;
    border-radius: 15px;
    box-sizing: border-box;
-   margin-top: 6px;
+   margin-top: 7px;
    margin-bottom: 16px;
    resize: vertical;
    -webkit-border-radius: 15px;
@@ -70,7 +83,16 @@ input[type=submit] {
    -o-border-radius: 15px;
 }
  
- 
+.check{
+   margin-bottom: 10px;
+}
+
+.myCheck{
+   //border: solid 1px gold;
+   width: 100%;
+   margin-bottom: 5px;
+} 
+
 input[type=submit]:hover {
    background-color: #45a049;
    
