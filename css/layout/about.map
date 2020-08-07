@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"../../scss/layout/about.scss"
+	],
+	"sourcesContent": [
+		"\n\n.line{\n   width: 200px;\n   height: 1px;\n   background-color: #444;\n   position: relative;\n   margin-top: -20px;\n\n}\n\n\n\n\n\n\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,KAAK,CAAA;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;EACtB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,KAAK,GAEnB"
+}
