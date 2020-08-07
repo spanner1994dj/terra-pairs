@@ -24,14 +24,14 @@ p {
   margin-bottom: 10px; }
 
 /*contact form styling */
-/* line 31, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/contact.scss */
+/* line 32, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/contact.scss */
 .contact-form {
   width: 100%;
   justify-content: center;
   align-content: center;
   padding: 10px 25%; }
 
-/* line 39, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/contact.scss */
+/* line 40, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/contact.scss */
 .container {
   font-size: 16px;
   border-radius: 35px;
@@ -46,7 +46,7 @@ p {
   -ms-border-radius: 35px;
   -o-border-radius: 35px; }
 
-/* line 54, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/contact.scss */
+/* line 55, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/contact.scss */
 input[type=text], select, textarea {
   width: 100%;
   font-size: 16px;

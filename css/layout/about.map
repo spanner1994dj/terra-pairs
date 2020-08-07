@@ -2,11 +2,13 @@
 	"version": 3,
 	"file": "about.css",
 	"sources": [
-		"../../scss/layout/about.scss"
+		"../../scss/layout/about.scss",
+		"../../scss/variables/variables.scss"
 	],
 	"sourcesContent": [
-		"\n\n.line{\n   width: 200px;\n   height: 1px;\n   background-color: #444;\n   position: relative;\n   margin-top: -20px;\n\n}\n\n\n\n\n\n\n\n\n\n\n\n"
+		"@import '../variables/variables.scss';\n\nbody{\n   padding: 5px 50px ;\n   margin: 0;\n   \n}\n\n.temp{\n   background-color: $terra-red;\n   color: #fff;\n   text-decoration: none;\n   font-size: 20px;\n   padding: 10px;\n   position: relative;\n   right: -45%;\n   margin-bottom: 10px;\n}\n\n/* section dividers */\n.line-top{\n   width: 125px;\n   height: 3px;\n   background-color: #444;\n   position: relative;\n   margin-top: 20px;\n}\n\n.line-i{\n   width: 50px;\n   height: 1px;\n   background-color: #444;\n   position: relative;\n   margin-top: 20px;\n}\n\n.line-w{\n   width: 110px;\n   height: 1px;\n   background-color: #444;\n   position: relative;\n   margin-top: 20px;\n\n}\n\n\n\n\n\n\n\n\n\n\n\n",
+		"$terra-red:#af473c;"
 	],
 	"names": [],
-	"mappings": ";AAEA,AAAA,KAAK,CAAA;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;EACtB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,KAAK,GAEnB"
+	"mappings": ";AAEA,AAAA,IAAI,CAAA;EACD,OAAO,EAAE,QAAS;EAClB,MAAM,EAAE,CAAC,GAEX;;;AAED,AAAA,KAAK,CAAA;EACF,gBAAgB,ECTR,OAAO;EDUf,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;EACrB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,IAAI,GACrB;;AAED,sBAAsB;;AACtB,AAAA,SAAS,CAAA;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;EACtB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,IAAI,GAClB;;;AAED,AAAA,OAAO,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;EACtB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,IAAI,GAClB;;;AAED,AAAA,OAAO,CAAA;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,IAAI;EACtB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,IAAI,GAElB"
 }

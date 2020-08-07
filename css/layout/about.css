@@ -1,9 +1,42 @@
 /* line 3, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/about.scss */
-.line {
-  width: 200px;
+body {
+  padding: 5px 50px;
+  margin: 0; }
+
+/* line 9, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/about.scss */
+.temp {
+  background-color: #af473c;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  right: -45%;
+  margin-bottom: 10px; }
+
+/* section dividers */
+/* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/about.scss */
+.line-top {
+  width: 125px;
+  height: 3px;
+  background-color: #444;
+  position: relative;
+  margin-top: 20px; }
+
+/* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/about.scss */
+.line-i {
+  width: 50px;
   height: 1px;
   background-color: #444;
   position: relative;
-  margin-top: -20px; }
+  margin-top: 20px; }
+
+/* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/about.scss */
+.line-w {
+  width: 110px;
+  height: 1px;
+  background-color: #444;
+  position: relative;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=about.css.map */
