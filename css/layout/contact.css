@@ -90,4 +90,8 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049; }
 
+/* line 101, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/contact.scss */
+#mapid {
+  height: 180px; }
+
 /*# sourceMappingURL=contact.css.map */
