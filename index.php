@@ -1,77 +1,10 @@
-<!DOCTYPE html>
+<?php 
+$pageTitle = "Terracotta Catering";
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Terracotta Catering</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Cairo:wght@100;200;300;400&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2b6a60d8b9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="js/slick/slick.css">
-    <link rel="stylesheet" href="js/slick/slick-theme.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+include("inc/header.php"); ?>
 
-<body>
-    <header>
-        <div class="logo">
-            <span class="logo-top">Terracotta</span>
-            <span class=logo-bottom>Catering</span>
-        </div>
-        <div class="action">
-            <div class="in-touch">
-                <div class="email">
-                    <i class="e-address fas fa-envelope"></i>
-                    <a class="address">info@terracotta.com</a>
-                </div>
-                <div class="telephone">
-                    <i class="i-phone fas fa-phone"></i>
-                    <a class="phone">01235-852-894</a>
-                </div>
-            </div>
-            <div class="title">
-                <h1 class="slogan">Quality local <br>Catering</h1>
-                <div class="line"></div>
-                <div class="slogan-text">
-                    <p>Restaurant quality food made<br> with locally sourced<br> ingredients</p>
-                </div>
-                <a class="book">Book now</a>
-            </div>
-        </div>
-    </header>
-    <nav>
-        <div class="nav-bar">
-            <div class="media nav-bar-contents">
-                <ul>
-                    <li class="about-us">
-                        <a href="pages/about.html">
-                            about us
-                        </a>
-                    </li>
-                    <li class="services">
-                        <a href="pages/services.html">
-                            services
-                        </a>
-                    </li>
-                    <li class="testimonials">
-                        <a href="pages/testimonials.html">
-                            testimonials
-                        </a>
-                    </li>
-                    <li class="contact-us">
-                        <a href="pages/contact.html">
-                            contact us
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
     <main>
-
         <div class="media">
             <h2>Catering for any occasion</h2>
             <div class="content-dash"></div>
@@ -220,70 +153,4 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="ft-align">
-            <div class=" media ft-content">
-                <div class="contact">
-                    <h3>Contact Us</h3>
-                    <div class="line"></div>
-                    <div class="address">
-                        <ul>
-                            <li>16 zobel close</li>
-                            <li>norwich</li>
-                            <li>norfolk</li>
-                            <li>NR3 2BY</li>
-                        </ul>
-                    </div>
-                    <div class="number">
-                        <a>01235-852-894</a>
-                    </div>
-                    <div class="mail">
-                        <a>info@terracotta.com</a>
-                    </div>
-                </div>
-                <div class="sections">
-                    <h3>Sections</h3>
-                    <div class="line"></div>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Corparate</li>
-                        <li>Weddings</li>
-                        <li>Events</li>
-                        <li>Testimonials</li>
-                        <li>Terms & Conditions</li>
-                    </ul>
-                </div>
-                <div class="follow-us">
-                    <h3>Follow Us</h3>
-                    <div class="line"></div>
-                    <ul>
-                        <li>
-                            <i class="facebook fab fa-facebook-square"></i> Facebook
-                        </li>
-                        <li>
-                            <i class="fab fa-twitter"></i>
-                            Twitter
-                        </li>
-                        <li>
-                            <i class="fab fa-linkedin"></i>
-                            LinkedIn
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="media">
-                <div class="copyright">
-                    <p>Copyright <i class="copy far fa-copyright"></i> Terracotta catering. all rights reserved 2019</p>
-                </div>
-            </div>
-
-    </footer>
-    <!-- javaScript Scripts -->
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../terra-pairs/js/slick/slick.min.js"></script>
-    <script type="text/javascript" src="../terra-pairs/js/carousel.js"></script>
-</body>
-
-</html>
+<?php include("inc/footer.php"); ?>

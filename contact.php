@@ -1,22 +1,9 @@
-<!DOCTYPE html>
+<?php
+$pageTitle = "Contact Us";
 
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title></title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+include("inc/header.php"); ?>
 
-      <script src="https://www.google.com/recaptcha/api.js"></script>
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-      crossorigin=""/>
-      <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-      crossorigin=""></script>
-      </head>
-   <body>
-      <h1>Contact Us</h1>
+<h1>Contact Us</h1>
       <a class="temp" type="button" href="index.php"> Temp home button</a>
       <p>If you have any questions please get in contact with us using the form below and we will respond as soon as possible.</p>
       <div class="contact-form">
@@ -54,16 +41,5 @@
       <div id="mapid">
 
       </div>
-   </body>
-</html>
 
-
-
-
-
-
-
-
-
-
-
+<?php include("inc/footer.php"); ?>

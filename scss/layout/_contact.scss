@@ -1,20 +1,16 @@
+// *{
+//    font-family:'Cairo' ,sans-serif;
+// }
 
-@import '../variables/variables.scss';
+// h1{
+//    text-align: center;
+// }
 
-
-*{
-   font-family:'Cairo' ,sans-serif;
-}
-
-h1{
-   text-align: center;
-}
-
-p{
-   font-size: 18px;
-   text-align: center;
-   margin-top: 25px;
-}
+// p{
+//    font-size: 18px;
+//    text-align: center;
+//    margin-top: 25px;
+// }
 
 .temp{
    background-color: $terra-red;
@@ -98,4 +94,6 @@ input[type=submit]:hover {
    
 }
  
-#mapid { height: 180px; }
+#mapid { 
+   height: 180px; 
+}
