@@ -1,6 +1,48 @@
-.test {
+.main-srvc {
+    height: 1200px;
+    background-color: $terra-red;
 
-    height: 300px;
-    width: 100%;
-    color: blue;
+    .seperator{
+        background-color: white;
+        height: 1px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .content-srvc{
+        color: white;
+        
+        h1{
+            font-size: 50px;
+
+        }
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+
+
+        .card{
+            
+            .srcv-img-1{
+                background-image: url(../../img/chef-1.jpg); 
+                height: 300px;
+                width: 300px;
+            }
+
+            .srcv-img-2{
+                background-image: url(../../img/chef-1.jpg); 
+                height: 300px;
+                width: 300px;
+            }
+
+            .srcv-img-3{
+                background-image: url(../../img/chef-1.jpg); 
+                height: 300px;
+                width: 300px;
+            }
+
+        }
+    }
 }

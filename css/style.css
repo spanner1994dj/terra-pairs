@@ -1016,10 +1016,28 @@ input[type=submit]:hover {
   height: 180px;
 }
 
-.test {
-  height: 300px;
+.main-srvc {
+  height: 1200px;
+  background-color: #af473c;
+}
+.main-srvc .seperator {
+  background-color: white;
+  height: 1px;
   width: 100%;
-  color: blue;
+  margin-bottom: 10px;
+}
+.main-srvc .content-srvc {
+  color: white;
+}
+.main-srvc .content-srvc h1 {
+  font-size: 50px;
+}
+.main-srvc .cards {
+  display: flex;
+  flex-direction: column;
+}
+.main-srvc .cards .card img {
+  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
