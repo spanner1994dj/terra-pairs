@@ -4,10 +4,10 @@ $pageTitle = "Testimonials";
 
 include("inc/header.php"); ?>
 
-   <main>
+   <main class="testimonials">
       <div>
-         <h1>Testimonials</h1>
-            <p>
+         <h1 class="test-title">Testimonials</h1>
+            <p class="test-slogan">
                These are the testimony's of people who have visited us and left a review.
             </p>
             <a class="temp" type="button" href="index.php"> Temp home button</a>
@@ -79,5 +79,6 @@ include("inc/header.php"); ?>
 
       </div>
    </main>
+   <div class="page-break"></div>
 
 <?php include("inc/footer.php"); ?>
