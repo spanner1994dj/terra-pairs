@@ -1071,53 +1071,54 @@ p {
 main {
   padding: 0 40px; }
 
-/* line 7, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+/* line 8, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
 .testies {
   display: flex;
-  height: 700px;
-  margin-top: 100px;
-  justify-content: space-between; }
+  height: 950px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 75px 0; }
 
-/* line 14, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+/* line 17, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
 .story {
   border: inset 5px slategray;
   border-radius: 3px;
-  width: 25%;
+  width: 22%;
   height: auto;
   padding: 0 10px; }
-  /* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  /* line 24, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story .checked {
     color: orange;
     align-content: center; }
-  /* line 26, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  /* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story .line {
     margin-top: 30px;
     margin-left: 25%;
     width: 50%;
     background-color: #000;
     height: 2px; }
-  /* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  /* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story .rate {
-    margin-left: 29%; }
-  /* line 38, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+    margin-left: 25%; }
+  /* line 41, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story .star {
     color: #000; }
-  /* line 42, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  /* line 45, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story h3 {
     text-align: center;
     font-weight: 600; }
-  /* line 47, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  /* line 50, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story p {
-    text-align: left; }
-  /* line 51, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+    text-align: left;
+    margin-bottom: 50px; }
+  /* line 55, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story span {
-    margin-top: 20px;
-    border: solid 1px blue;
+    margin-top: 50px;
     font-style: italic;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
-    text-decoration: underline 2px;
+    text-decoration: underline 3px;
     width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

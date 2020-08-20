@@ -1,20 +1,23 @@
 
 main{
    padding: 0 40px;
+   
 }
 
 
 .testies{
    display: flex;
-   height:700px;
-   margin-top: 100px;
+   
+   height:950px;
+   width: 100%;
    justify-content: space-between;
+   padding:75px 0 ;
 }
 
 .story{
    border: inset 5px slategray;
    border-radius: 3px;
-   width: 25%;
+   width: 22%;
    height: auto;
    padding:0 10px ;
 
@@ -32,7 +35,7 @@ main{
    }
 
    .rate{
-      margin-left: 29%;
+      margin-left: 25%;
    }
 
    .star{
@@ -46,16 +49,17 @@ main{
 
    p{
       text-align: left;
+      margin-bottom: 50px;
    }
 
    span{
-      margin-top: 20px;
-      border: solid 1px blue;
+      margin-top: 50px;
+      //border: solid 1px blue;
       font-style: italic;
       font-weight: 700;
       font-size: 18px;
       text-align: center;
-      text-decoration: underline 2px;
+      text-decoration: underline 3px;
       width: 100%;
       
    }
