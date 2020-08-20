@@ -3,9 +3,9 @@ $pageTitle = "Contact Us";
 
 include("inc/header.php"); ?>
 
-<h1>Contact Us</h1>
+<h1 class="contact-title">Contact Us</h1>
       <a class="temp" type="button" href="index.php"> Temp home button</a>
-      <p>If you have any questions please get in contact with us using the form below and we will respond as soon as possible.</p>
+      <p class="contact-slogan">If you have any questions please get in contact with us using the form below and we will respond as soon as possible.</p>
       <div class="contact-form">
          <div class="container">
             <form action="action_page.php">
@@ -37,10 +37,12 @@ include("inc/header.php"); ?>
             </form>
            
          </div>
-      </div>
-      <div class="map">
-         <div class="mapid">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2420.7066983715727!2d1.262040815956824!3d52.64721183454589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e173705fe203%3A0xf26790a125dad856!2s16%20Zobel%20Cl%2C%20Norwich%20NR3%202BY!5e0!3m2!1sen!2suk!4v1597841065230!5m2!1sen!2suk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         <div class="map">
+            <div class="mapid">
+               <h3 class="map-title">Where to find us!!</h3>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2420.7066983715727!2d1.262040815956824!3d52.64721183454589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e173705fe203%3A0xf26790a125dad856!2s16%20Zobel%20Cl%2C%20Norwich%20NR3%202BY!5e0!3m2!1sen!2suk!4v1597841065230!5m2!1sen!2suk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
          </div>
       </div>
+      
 <?php include("inc/footer.php"); ?>
