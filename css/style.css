@@ -1159,4 +1159,10 @@ h4 {
 .story:hover {
   border-color: #af473c; }
 
+/* line 88, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+.leave {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline; }
+
 /*# sourceMappingURL=style.css.map */

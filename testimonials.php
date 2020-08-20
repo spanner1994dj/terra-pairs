@@ -76,8 +76,10 @@ include("inc/header.php"); ?>
             Aliquam eleifend odio sagittis, pulvinar eros et, malesuada orci. Nulla ut turpis facilisis, faucibus ex id, tempus ipsum. Aliquam viverra ipsum vel consequat semper. Vivamus in porttitor elit. Ut fermentum sagittis lectus non venenatis. Proin ornare et lacus in molestie. Donec ac lorem ac ligula pretium pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent ac accumsan libero. Aliquam luctus nunc est, eu luctus purus aliquet non. Donec eu vestibulum turpis, in semper nisl. </p>
             <span>James Gulliver</span>
          </div>
-
+         
       </div>
+
+      <div class="leave">Dont forget to leave us your review and testaments.</div>
    </main>
    <div class="page-break"></div>
 
