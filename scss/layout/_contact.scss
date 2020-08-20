@@ -102,12 +102,13 @@
    width: 100%;
    height: 500px;
    display:flex;
-   justify-content: left;
+   justify-content: center;
    
    .mapid { 
       height: 180px;
       width:200px;
-      margin:0px 0px ; 
+      margin:0px;
+      margin-right: 250px; 
    }
 }
 

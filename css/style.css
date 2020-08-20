@@ -933,16 +933,6 @@ h4 {
   position: relative;
   margin-top: 20px; }
 
-/* line 5, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
-h1 {
-  text-align: center; }
-
-/* line 9, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
-p {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 25px; }
-
 /* line 16, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .temp {
   background-color: #af473c;
@@ -1024,59 +1014,63 @@ p {
   width: 100%;
   height: 500px;
   display: flex;
-  justify-content: left; }
+  justify-content: center; }
   /* line 107, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .map .mapid {
     height: 180px;
     width: 200px;
-    margin: 0px 0px; }
+    margin: 0px;
+    margin-right: 250px; }
 
 /* line 1, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
 .main-srvc {
   height: 1400px;
-  background-color: #af473c;
-}
-.main-srvc .seperator {
-  background-color: white;
-  height: 1px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-.main-srvc .content-srvc {
-  color: white;
-}
-.main-srvc .content-srvc h1 {
-  font-size: 50px;
-}
-.main-srvc .cards {
-  display: flex;
-  flex-direction: column;
-}
-.main-srvc .cards .card {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
-.main-srvc .cards .card p {
-  width: 60%;
-  margin: 0px 20px;
-}
-.main-srvc .cards .card .srvc-img-1 {
-  background-image: url(https://via.placeholder.com/400);
-  height: 400px;
-  width: 400px;
-}
-.main-srvc .cards .card .srvc-img-2 {
-  background-image: url(https://via.placeholder.com/400);
-  height: 400px;
-  width: 400px;
-}
-.main-srvc .cards .card .srvc-img-3 {
-  background-image: url(https://via.placeholder.com/400);
-  height: 400px;
-  width: 400px;
-}
+  background-color: #af473c; }
+  /* line 5, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+  .main-srvc .seperator {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 10px; }
+  /* line 12, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+  .main-srvc .content-srvc {
+    color: white; }
+    /* line 15, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+    .main-srvc .content-srvc h1 {
+      font-size: 50px; }
+  /* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+  .main-srvc .cards {
+    display: flex;
+    flex-direction: column; }
+    /* line 26, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+    .main-srvc .cards .card {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px; }
+      /* line 32, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+      .main-srvc .cards .card p {
+        width: 60%;
+        margin: 0px 20px; }
+      /* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+      .main-srvc .cards .card .srvc-img-1 {
+        background-image: url(https://via.placeholder.com/400);
+        height: 400px;
+        width: 400px; }
+      /* line 44, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+      .main-srvc .cards .card .srvc-img-2 {
+        background-image: url(https://via.placeholder.com/400);
+        height: 400px;
+        width: 400px; }
+      /* line 50, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
+      .main-srvc .cards .card .srvc-img-3 {
+        background-image: url(https://via.placeholder.com/400);
+        height: 400px;
+        width: 400px; }
+
+/* line 2, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+main {
+  padding: 0 40px; }
 
 /* line 8, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
 .testies {
