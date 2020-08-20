@@ -8,7 +8,7 @@
 /* Document
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-/* line 13, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 13, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 html {
   line-height: 1.15;
   /* 2 */
@@ -22,14 +22,14 @@ html {
 /**
    * Remove the margin in all browsers (opinionated).
    */
-/* line 26, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 26, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 body {
   margin: 0; }
 
 /**
    * Add the correct display in IE 9-.
    */
-/* line 34, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 article,
 aside,
 footer,
@@ -44,7 +44,7 @@ section {
    * Add the correct display in IE 9-.
    * 1. Add the correct display in IE.
    */
-/* line 51, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 51, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 figcaption,
 figure,
 main {
@@ -54,7 +54,7 @@ main {
 /**
    * Add the correct margin in IE 8.
    */
-/* line 61, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 61, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 figure {
   margin: 1em 40px; }
 
@@ -62,7 +62,7 @@ figure {
    * 1. Add the correct box sizing in Firefox.
    * 2. Show the overflow in Edge and IE.
    */
-/* line 70, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 70, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -75,7 +75,7 @@ hr {
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-/* line 81, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 81, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -88,7 +88,7 @@ pre {
    * 1. Remove the gray background on active links in IE 10.
    * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
    */
-/* line 94, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 94, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -99,7 +99,7 @@ a {
    * Remove the outline on focused links when they are also active or hovered
    * in all browsers (opinionated).
    */
-/* line 104, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 104, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 a:active,
 a:hover {
   outline-width: 0; }
@@ -108,7 +108,7 @@ a:hover {
    * 1. Remove the bottom border in Firefox 39-.
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
-/* line 114, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 114, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -120,7 +120,7 @@ abbr[title] {
 /**
    * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
    */
-/* line 124, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 124, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -128,7 +128,7 @@ strong {
 /**
    * Add the correct font weight in Chrome, Edge, and Safari.
    */
-/* line 133, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 133, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -137,7 +137,7 @@ strong {
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
-/* line 143, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 143, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 code,
 kbd,
 samp {
@@ -149,14 +149,14 @@ samp {
 /**
    * Add the correct font style in Android 4.3-.
    */
-/* line 154, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 154, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 dfn {
   font-style: italic; }
 
 /**
    * Add the correct background and color in IE 9-.
    */
-/* line 162, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 162, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -164,7 +164,7 @@ mark {
 /**
    * Add the correct font size in all browsers.
    */
-/* line 171, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 171, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 small {
   font-size: 80%; }
 
@@ -172,7 +172,7 @@ small {
    * Prevent `sub` and `sup` elements from affecting the line height in
    * all browsers.
    */
-/* line 180, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 180, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 sub,
 sup {
   font-size: 75%;
@@ -180,11 +180,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 188, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 188, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 192, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 192, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 sup {
   top: -0.5em; }
 
@@ -193,7 +193,7 @@ sup {
 /**
    * Add the correct display in IE 9-.
    */
-/* line 203, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 203, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 audio,
 video {
   display: inline-block; }
@@ -201,7 +201,7 @@ video {
 /**
    * Add the correct display in iOS 4-7.
    */
-/* line 212, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 212, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -209,14 +209,14 @@ audio:not([controls]) {
 /**
    * Remove the border on images inside links in IE 10-.
    */
-/* line 221, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 221, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 img {
   border-style: none; }
 
 /**
    * Hide the overflow in IE.
    */
-/* line 229, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 229, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -226,7 +226,7 @@ svg:not(:root) {
    * 1. Change the font styles in all browsers (opinionated).
    * 2. Remove the margin in Firefox and Safari.
    */
-/* line 241, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 241, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 button,
 input,
 optgroup,
@@ -245,7 +245,7 @@ textarea {
    * Show the overflow in IE.
    * 1. Show the overflow in Edge.
    */
-/* line 257, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 257, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 button,
 input {
   /* 1 */
@@ -255,7 +255,7 @@ input {
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.
    */
-/* line 267, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 267, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 button,
 select {
   /* 1 */
@@ -266,7 +266,7 @@ select {
    *    controls in Android 4.
    * 2. Correct the inability to style clickable types in iOS and Safari.
    */
-/* line 278, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 278, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -277,7 +277,7 @@ html [type="button"],
 /**
    * Remove the inner border and padding in Firefox.
    */
-/* line 289, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 289, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -288,7 +288,7 @@ button::-moz-focus-inner,
 /**
    * Restore the focus styles unset by the previous rule.
    */
-/* line 301, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 301, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -298,7 +298,7 @@ button:-moz-focusring,
 /**
    * Change the border, margin, and padding in all browsers (opinionated).
    */
-/* line 312, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 312, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -310,7 +310,7 @@ fieldset {
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
    */
-/* line 325, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 325, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -329,7 +329,7 @@ legend {
    * 1. Add the correct display in IE 9-.
    * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
    */
-/* line 339, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 339, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -339,7 +339,7 @@ progress {
 /**
    * Remove the default vertical scrollbar in IE.
    */
-/* line 348, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 348, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 textarea {
   overflow: auto; }
 
@@ -347,7 +347,7 @@ textarea {
    * 1. Add the correct box sizing in IE 10-.
    * 2. Remove the padding in IE 10-.
    */
-/* line 357, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 357, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -358,7 +358,7 @@ textarea {
 /**
    * Correct the cursor style of increment and decrement buttons in Chrome.
    */
-/* line 367, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 367, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -367,7 +367,7 @@ textarea {
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
-/* line 377, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 377, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -377,7 +377,7 @@ textarea {
 /**
    * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
    */
-/* line 386, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 386, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -386,7 +386,7 @@ textarea {
    * 1. Correct the inability to style clickable types in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
-/* line 396, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 396, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -399,7 +399,7 @@ textarea {
    * Add the correct display in IE 9-.
    * 1. Add the correct display in Edge, IE, and Firefox.
    */
-/* line 409, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 409, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 details,
 menu {
   display: block; }
@@ -407,7 +407,7 @@ menu {
 /*
    * Add the correct display in all browsers.
    */
-/* line 418, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 418, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 summary {
   display: list-item; }
 
@@ -416,14 +416,14 @@ summary {
 /**
    * Add the correct display in IE 9-.
    */
-/* line 429, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 429, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 canvas {
   display: inline-block; }
 
 /**
    * Add the correct display in IE.
    */
-/* line 437, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 437, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 template {
   display: none; }
 
@@ -432,20 +432,20 @@ template {
 /**
    * Add the correct display in IE 10-.
    */
-/* line 448, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 448, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 [hidden] {
   display: none; }
 
 /**
    * List styles
    */
-/* line 455, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_reset.scss */
+/* line 455, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_reset.scss */
 ul, ol {
   list-style-type: none;
   padding: 0;
   margin: 0; }
 
-/* line 2, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 2, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 * {
   box-sizing: border-box;
   font-family: 'Cairo' ,sans-serif;
@@ -454,30 +454,30 @@ ul, ol {
   border: none;
   letter-spacing: .4px; }
 
-/* line 10, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 10, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px; }
 
-/* line 16, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 16, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 p {
   width: 100%; }
 
-/* line 19, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 19, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 a {
   text-decoration: none;
   color: inherit; }
 
-/* line 23, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 23, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 hr.styled {
   border: 0;
   height: 1px;
   background: #333;
   background-image: linear-gradient(to right, #ccc, #333, #ccc); }
 
-/* line 29, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 hr.styled-small {
   border: 0;
   height: 1px;
@@ -485,27 +485,27 @@ hr.styled-small {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
   width: 10px; }
 
-/* line 37, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 .media {
   width: 1200px;
   margin: auto; }
   @media screen and (max-width: 768px) {
-    /* line 37, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+    /* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
     .media {
       width: 750px; } }
   @media screen and (max-width: 992px) {
-    /* line 37, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+    /* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
     .media {
       width: 970px; } }
 
-/* line 51, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/base/_base.scss */
+/* line 51, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/base/_base.scss */
 .content-dash {
   width: 125px;
   height: 1px;
   background-color: #af473c;
   margin-bottom: 20px; }
 
-/* line 2, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 2, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 header {
   background-image: url(../img/lobster1.jpg);
   background-repeat: no-repeat;
@@ -515,19 +515,19 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; }
-  /* line 12, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+  /* line 12, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   header p {
     font-size: 20px;
     font-weight: 200; }
 
-/* line 18, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 18, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .logo {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
   margin-top: 40px; }
 
-/* line 25, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 25, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .logo-top {
   font-family: 'Coming Soon', cursive;
   font-size: 50px;
@@ -536,7 +536,7 @@ header {
   color: #af473c;
   text-align: center; }
 
-/* line 34, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .logo-bottom {
   font-family: 'Cairo' ,sans-serif;
   font-size: 50px;
@@ -544,11 +544,11 @@ header {
   text-align: center;
   letter-spacing: 5px; }
 
-/* line 42, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 42, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .logo {
   justify-content: left; }
 
-/* line 47, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 47, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .action {
   display: flex;
   flex-wrap: nowrap;
@@ -562,7 +562,7 @@ header {
   width: auto;
   height: auto; }
 
-/* line 62, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 62, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .in-touch {
   display: flex;
   flex-direction: row;
@@ -573,7 +573,7 @@ header {
   margin-right: 40px;
   justify-content: right; }
 
-/* line 75, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 75, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .email {
   text-transform: uppercase;
   margin-right: 0;
@@ -582,13 +582,13 @@ header {
   justify-content: right;
   text-align: right; }
 
-/* line 85, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 85, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .telephone {
   width: auto;
   height: max-content;
   margin-left: 10px; }
 
-/* line 92, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 92, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .book {
   padding: 2px 20px;
   text-transform: uppercase;
@@ -596,22 +596,22 @@ header {
   color: #fff;
   font-size: 20px; }
 
-/* line 100, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 100, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .title {
   text-transform: uppercase;
   margin-top: 10px;
   margin-right: 35px; }
-  /* line 105, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+  /* line 105, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .title .slogan {
     font-size: 50px;
     font-weight: 300;
     letter-spacing: 5px; }
-  /* line 110, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+  /* line 110, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .title p {
     font-size: 25px;
     font-weight: 200;
     letter-spacing: 2px; }
-  /* line 116, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+  /* line 116, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .title .line {
     width: 200px;
     height: 1px;
@@ -620,19 +620,19 @@ header {
     right: 40px;
     margin-top: -20px; }
 
-/* line 127, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+/* line 127, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .nav-bar {
   display: block;
   width: 100%;
   height: 50px;
   text-align: right;
   background-color: #af473c; }
-  /* line 136, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+  /* line 136, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .nav-bar .nav-bar-contents {
     display: flex;
     justify-content: right;
     width: auto; }
-  /* line 143, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+  /* line 143, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .nav-bar ul {
     display: flex;
     flex-direction: row;
@@ -644,7 +644,7 @@ header {
     vertical-align: middle;
     position: absolute;
     right: 0; }
-    /* line 158, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+    /* line 158, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
     .nav-bar ul li {
       padding: 14px 0px;
       text-align: right;
@@ -653,13 +653,13 @@ header {
       margin-right: 70px;
       color: white;
       list-style: none; }
-      /* line 168, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_header.scss */
+      /* line 168, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
       .nav-bar ul li a {
         font-family: 'Cairo' ,sans-serif;
         letter-spacing: 3px;
         font-weight: 200; }
 
-/* line 3, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+/* line 3, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 footer {
   background-color: #af473c;
   width: 100%;
@@ -673,66 +673,66 @@ footer {
   justify-content: center;
   align-content: center;
   line-height: 1.5; }
-  /* line 18, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 18, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   footer li {
     font-weight: 200; }
-  /* line 22, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 22, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   footer a {
     font-weight: 200; }
 
-/* line 31, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+/* line 31, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 .ft-align .ft-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 50px; }
 
-/* line 39, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+/* line 39, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 .contact {
   display: flex;
   flex-direction: column;
   width: 300px;
   text-align: center;
   justify-content: center; }
-  /* line 47, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 47, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   .contact h3 {
     text-align: left; }
-  /* line 51, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 51, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   .contact .address {
     margin-left: 0px;
     margin-bottom: 15px;
     justify-content: center;
     width: 300px;
     text-align: left; }
-  /* line 60, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 60, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   .contact li {
     text-transform: capitalize; }
-  /* line 65, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 65, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   .contact .number {
     width: max-content; }
-  /* line 71, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 71, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   .contact .mail {
     width: max-content; }
 
-/* line 78, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+/* line 78, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 .sections {
   width: 300px;
   line-height: 1.57; }
 
-/* line 84, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+/* line 84, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 .follow-us {
   width: 300px;
   list-style: none; }
-  /* line 89, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+  /* line 89, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
   .follow-us h3 {
     text-align: left; }
 
-/* line 97, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+/* line 97, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 .copyright p {
   font-weight: 200;
   text-align: center; }
 
-/* line 103, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_footer.scss */
+/* line 103, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_footer.scss */
 .line {
   width: 100px;
   height: 1px;
@@ -740,7 +740,7 @@ footer {
   margin-top: -10px;
   margin-bottom: 10px; }
 
-/* line 2, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+/* line 2, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
 h2 {
   text-transform: uppercase;
   color: #af473c;
@@ -748,60 +748,60 @@ h2 {
   font-size: 40px;
   font-weight: 300; }
 
-/* line 10, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+/* line 10, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
 h4 {
   color: #af473c;
   letter-spacing: 2px;
   font-size: 35px;
   font-weight: 300; }
 
-/* line 20, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+/* line 20, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
 .cards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 100px; }
-  /* line 26, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+  /* line 26, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
   .cards .card {
     display: flex;
     flex-direction: column;
     width: 380px;
     flex-wrap: wrap;
     align-items: center; }
-    /* line 33, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+    /* line 33, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
     .cards .card .content-img {
       width: 400px;
       height: 300px; }
-    /* line 38, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+    /* line 38, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
     .cards .card h4 {
       font-size: 20px;
       text-transform: uppercase; }
-    /* line 43, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+    /* line 43, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
     .cards .card .content-span {
       width: 80px;
       height: 1px;
       background-color: #af473c;
       margin-top: -10px; }
-    /* line 50, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+    /* line 50, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
     .cards .card p {
       text-align: center; }
 
-/* line 57, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+/* line 57, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
 .booking-bckgrnd {
   background-color: black;
   height: 150px;
   margin-top: 50px; }
-  /* line 63, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+  /* line 63, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
   .booking-bckgrnd .booking-ctn {
     display: flex;
     align-items: center;
     padding-top: 40px; }
-    /* line 68, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+    /* line 68, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
     .booking-bckgrnd .booking-ctn p {
       color: white;
       font-size: 20px;
       margin-right: 20px; }
-    /* line 74, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+    /* line 74, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
     .booking-bckgrnd .booking-ctn div {
       background-color: white;
       width: 200px;
@@ -810,23 +810,23 @@ h4 {
       height: 50px;
       justify-content: center; }
 
-/* line 88, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+/* line 88, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
 .partners-ctn .content-dash {
   margin-bottom: 20px; }
 
-/* line 92, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+/* line 92, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
 .partners-ctn .partners {
   display: flex;
   justify-content: space-between; }
-  /* line 96, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_homepageContent.scss */
+  /* line 96, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_homepageContent.scss */
   .partners-ctn .partners img {
     width: 200px;
     height: 125px; }
 
-/* line 3, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+/* line 3, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
 .carousel .slide {
   position: relative; }
-  /* line 6, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+  /* line 6, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
   .carousel .slide .quote {
     position: absolute;
     top: 20px;
@@ -835,42 +835,42 @@ h4 {
     margin-left: 30px;
     font-size: 30px;
     font-weight: 300; }
-  /* line 16, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+  /* line 16, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
   .carousel .slide .crsl-img {
     width: 100%;
     height: 400px; }
-  /* line 21, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+  /* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
   .carousel .slide .crsl-img-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
     background-size: cover;
     background-position: center center; }
-  /* line 27, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+  /* line 27, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
   .carousel .slide .crsl-img-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
     background-size: cover;
     background-position: center center; }
-  /* line 33, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+  /* line 33, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
   .carousel .slide .crsl-img-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
     background-size: cover;
     background-position: center center; }
-  /* line 39, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+  /* line 39, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
   .carousel .slide .crsl-img-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sliced.jpg) no-repeat;
     background-size: cover;
     background-position: center center; }
-  /* line 45, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+  /* line 45, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
   .carousel .slide .quote-name {
     position: absolute;
     color: white;
     top: 210px;
     right: 900px; }
-    /* line 51, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+    /* line 51, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
     .carousel .slide .quote-name p {
       font-size: 20px;
       text-align: center; }
 
-/* line 61, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_carousel.scss */
+/* line 61, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_carousel.scss */
 .slide-dash {
   width: 400px;
   height: 1px;
@@ -880,24 +880,24 @@ h4 {
   right: 700px;
   margin: auto; }
 
-/* line 1, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_icons.scss */
+/* line 1, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_icons.scss */
 .fas {
   font-size: 30px;
   color: white; }
 
-/* line 6, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_icons.scss */
+/* line 6, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_icons.scss */
 .fa-quote-left {
   position: absolute;
   top: 20px;
   left: 300px; }
 
-/* line 12, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/components/_icons.scss */
+/* line 12, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/components/_icons.scss */
 .fa-quote-right {
   position: absolute;
   top: 130px;
   right: 200px; }
 
-/* line 9, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_about.scss */
+/* line 9, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
 .temp {
   background-color: #af473c;
   color: #fff;
@@ -909,7 +909,7 @@ h4 {
   margin-bottom: 10px; }
 
 /* section dividers */
-/* line 21, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_about.scss */
+/* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
 .line-top {
   width: 125px;
   height: 3px;
@@ -917,7 +917,7 @@ h4 {
   position: relative;
   margin-top: 20px; }
 
-/* line 29, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_about.scss */
+/* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
 .line-i {
   width: 50px;
   height: 1px;
@@ -925,7 +925,7 @@ h4 {
   position: relative;
   margin-top: 20px; }
 
-/* line 37, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_about.scss */
+/* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
 .line-w {
   width: 110px;
   height: 1px;
@@ -933,17 +933,17 @@ h4 {
   position: relative;
   margin-top: 20px; }
 
-/* line 5, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+/* line 5, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 h1 {
   text-align: center; }
 
-/* line 9, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+/* line 9, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 p {
   font-size: 18px;
   text-align: center;
   margin-top: 25px; }
 
-/* line 16, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+/* line 16, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .temp {
   background-color: #af473c;
   color: #fff;
@@ -955,15 +955,14 @@ p {
   margin-bottom: 10px; }
 
 /*contact form styling */
-/* line 29, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+/* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .contact-form {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-  border: solid 1px blue;
   padding: 10px 10px; }
-  /* line 37, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+  /* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form .container {
     margin-left: 50px;
     font-size: 16px;
@@ -978,9 +977,10 @@ p {
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px; }
-  /* line 53, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+  /* line 53, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form input[type=text], .contact-form select, .contact-form textarea {
     width: 100%;
+    color: #fff;
     font-size: 16px;
     padding: 12px;
     border: 2px solid #ccc;
@@ -993,7 +993,7 @@ p {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px; }
-  /* line 69, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+  /* line 70, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -1007,64 +1007,117 @@ p {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px; }
-  /* line 84, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+  /* line 85, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form .check {
     margin-bottom: 10px;
     margin-right: 10px; }
-  /* line 89, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+  /* line 90, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form .myCheck {
     width: 100%;
     margin-bottom: 5px; }
-  /* line 95, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+  /* line 96, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form input[type=submit]:hover {
     background-color: #45a049; }
 
-/* line 100, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+/* line 101, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .map {
   width: 100%;
   height: 500px;
   display: flex;
-  justify-content: center; }
-  /* line 106, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_contact.scss */
+  justify-content: left; }
+  /* line 107, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .map .mapid {
     height: 180px;
     width: 200px;
-    margin: 20px 0px; }
+    margin: 0px 0px; }
 
-/* line 1, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+/* line 1, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
 .main-srvc {
   height: 1200px;
   background-color: #af473c; }
-  /* line 5, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+  /* line 5, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
   .main-srvc .seperator {
     background-color: white;
     height: 1px;
     width: 100%;
     margin-bottom: 10px; }
-  /* line 12, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+  /* line 12, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
   .main-srvc .content-srvc {
     color: white; }
-    /* line 15, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+    /* line 15, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
     .main-srvc .content-srvc h1 {
       font-size: 50px; }
-  /* line 21, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+  /* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
   .main-srvc .cards {
     display: flex;
     flex-direction: column; }
-    /* line 28, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+    /* line 28, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
     .main-srvc .cards .card .srcv-img-1 {
       background-image: url(../../img/chef-1.jpg);
       height: 300px;
       width: 300px; }
-    /* line 34, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+    /* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
     .main-srvc .cards .card .srcv-img-2 {
       background-image: url(../../img/chef-1.jpg);
       height: 300px;
       width: 300px; }
-    /* line 40, ../../../../../../../../../../../../../Users/imac/.bitnami/stackman/machines/xampp/volumes/root/htdocs/terra-pairs/scss/layout/_services.scss */
+    /* line 40, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_services.scss */
     .main-srvc .cards .card .srcv-img-3 {
       background-image: url(../../img/chef-1.jpg);
       height: 300px;
       width: 300px; }
+
+/* line 2, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+main {
+  padding: 0 40px; }
+
+/* line 7, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+.testies {
+  display: flex;
+  height: 700px;
+  margin-top: 100px;
+  justify-content: space-between; }
+
+/* line 14, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+.story {
+  border: inset 5px slategray;
+  border-radius: 3px;
+  width: 25%;
+  height: auto;
+  padding: 0 10px; }
+  /* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  .story .checked {
+    color: orange;
+    align-content: center; }
+  /* line 26, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  .story .line {
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 50%;
+    background-color: #000;
+    height: 2px; }
+  /* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  .story .rate {
+    margin-left: 29%; }
+  /* line 38, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  .story .star {
+    color: #000; }
+  /* line 42, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  .story h3 {
+    text-align: center;
+    font-weight: 600; }
+  /* line 47, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  .story p {
+    text-align: left; }
+  /* line 51, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+  .story span {
+    margin-top: 20px;
+    border: solid 1px blue;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline 2px;
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

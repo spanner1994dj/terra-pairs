@@ -1,0 +1,65 @@
+
+main{
+   padding: 0 40px;
+}
+
+
+.testies{
+   display: flex;
+   height:700px;
+   margin-top: 100px;
+   justify-content: space-between;
+}
+
+.story{
+   border: inset 5px slategray;
+   border-radius: 3px;
+   width: 25%;
+   height: auto;
+   padding:0 10px ;
+
+   .checked{
+      color: orange;
+      align-content: center;
+   }
+
+   .line{
+      margin-top: 30px;
+      margin-left: 25%;
+      width: 50%;
+      background-color: #000;
+      height: 2px;
+   }
+
+   .rate{
+      margin-left: 29%;
+   }
+
+   .star{
+      color: #000;
+      
+   }
+   h3{
+      text-align: center;
+      font-weight: 600 ;
+   }
+
+   p{
+      text-align: left;
+   }
+
+   span{
+      margin-top: 20px;
+      border: solid 1px blue;
+      font-style: italic;
+      font-weight: 700;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: underline 2px;
+      width: 100%;
+      
+   }
+}
+
+
+
