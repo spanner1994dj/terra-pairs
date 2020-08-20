@@ -1,5 +1,5 @@
 .main-srvc {
-    height: 1200px;
+    height: 1400px;
     background-color: $terra-red;
 
     .seperator{
@@ -24,23 +24,33 @@
 
 
         .card{
-            
-            .srcv-img-1{
-                background-image: url(../../img/chef-1.jpg); 
-                height: 300px;
-                width: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+
+            p{
+                width: 60%;
+                margin: 0px 20px;
             }
 
-            .srcv-img-2{
-                background-image: url(../../img/chef-1.jpg); 
-                height: 300px;
-                width: 300px;
+            .srvc-img-1{
+                background-image: url(https://via.placeholder.com/400); 
+                height: 400px;
+                width: 400px;
+                
             }
 
-            .srcv-img-3{
-                background-image: url(../../img/chef-1.jpg); 
-                height: 300px;
-                width: 300px;
+            .srvc-img-2{
+                background-image: url(https://via.placeholder.com/400); 
+                height: 400px;
+                width: 400px;
+            }
+
+            .srvc-img-3{
+                background-image: url(https://via.placeholder.com/400); 
+                height: 400px;
+                width: 400px;
             }
 
         }
