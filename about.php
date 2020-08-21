@@ -5,9 +5,6 @@ include("inc/header.php"); ?>
 <div class="media">
    <h1 class="title">About us</h1>
          <div class="line-top"></div>
-
-         <a class="temp" type="button" href="index.php"> Temp home button</a>
-
          <h3>Info</h3>
          <div class="line-i"></div>
          <p>

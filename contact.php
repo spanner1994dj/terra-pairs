@@ -4,7 +4,8 @@ $pageTitle = "Contact Us";
 include("inc/header.php"); ?>
 
 <h1 class="contact-title">Contact Us</h1>
-      <a class="temp" type="button" href="index.php"> Temp home button</a>
+      
+
       <p class="contact-slogan">If you have any questions please get in contact with us using the form below and we will respond as soon as possible.</p>
       <div class="contact-form">
          <div class="container">

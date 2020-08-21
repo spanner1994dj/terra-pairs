@@ -26,8 +26,10 @@
     <body>
         <header>
             <div class="logo">
-                <span class="logo-top">Terracotta</span>
-                <span class=logo-bottom>Catering</span>
+                <a class="home" href="index.php">
+                    <span class="logo-top">Terracotta</span><br>
+                    <span class=logo-bottom>Catering</span>
+                </a>
             </div>
             <div class="action">
                 <div class="in-touch">

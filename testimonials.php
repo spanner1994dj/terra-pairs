@@ -6,11 +6,11 @@ include("inc/header.php"); ?>
 
    <main class="testimonials">
       <div>
-         <h1 class="test-title">Testimonials</h1>
+         <h1 class="test-title">
+            Testimonials</h1>
             <p class="test-slogan">
                These are the testimony's of people who have visited us and left a review.
             </p>
-            <a class="temp" type="button" href="index.php"> Temp home button</a>
       </div>
       <div class="testies">
          <div class="story story-1">

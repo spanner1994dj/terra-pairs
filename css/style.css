@@ -525,30 +525,25 @@ header {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
-  margin-top: 40px; }
-
-/* line 25, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
-.logo-top {
-  font-family: 'Coming Soon', cursive;
-  font-size: 50px;
-  font-style: italic;
-  font-weight: 600;
-  color: #af473c;
-  text-align: center; }
-
-/* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
-.logo-bottom {
-  font-family: 'Cairo' ,sans-serif;
-  font-size: 50px;
-  font-weight: 200;
-  text-align: center;
-  letter-spacing: 5px; }
-
-/* line 42, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
-.logo {
+  margin-top: 40px;
   justify-content: left; }
+  /* line 27, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+  .logo .home .logo-top {
+    font-family: 'Coming Soon', cursive;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+    color: #af473c;
+    text-align: center; }
+  /* line 36, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+  .logo .home .logo-bottom {
+    font-family: 'Cairo' ,sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 5px; }
 
-/* line 47, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 46, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .action {
   display: flex;
   flex-wrap: nowrap;
@@ -562,7 +557,7 @@ header {
   width: auto;
   height: auto; }
 
-/* line 62, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 61, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .in-touch {
   display: flex;
   flex-direction: row;
@@ -573,7 +568,7 @@ header {
   margin-right: 40px;
   justify-content: right; }
 
-/* line 75, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 74, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .email {
   text-transform: uppercase;
   margin-right: 0;
@@ -582,13 +577,13 @@ header {
   justify-content: right;
   text-align: right; }
 
-/* line 85, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 84, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .telephone {
   width: auto;
   height: max-content;
   margin-left: 10px; }
 
-/* line 92, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 91, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .book {
   padding: 2px 20px;
   text-transform: uppercase;
@@ -596,22 +591,22 @@ header {
   color: #fff;
   font-size: 20px; }
 
-/* line 100, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 99, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .title {
   text-transform: uppercase;
   margin-top: 10px;
   margin-right: 35px; }
-  /* line 105, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+  /* line 104, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .title .slogan {
     font-size: 50px;
     font-weight: 300;
     letter-spacing: 5px; }
-  /* line 110, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+  /* line 109, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .title p {
     font-size: 25px;
     font-weight: 200;
     letter-spacing: 2px; }
-  /* line 116, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+  /* line 115, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .title .line {
     width: 200px;
     height: 1px;
@@ -620,19 +615,19 @@ header {
     right: 40px;
     margin-top: -20px; }
 
-/* line 127, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+/* line 126, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
 .nav-bar {
   display: block;
   width: 100%;
   height: 50px;
   text-align: right;
   background-color: #af473c; }
-  /* line 136, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+  /* line 135, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .nav-bar .nav-bar-contents {
     display: flex;
     justify-content: right;
     width: auto; }
-  /* line 143, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+  /* line 142, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
   .nav-bar ul {
     display: flex;
     flex-direction: row;
@@ -644,7 +639,7 @@ header {
     vertical-align: middle;
     position: absolute;
     right: 0; }
-    /* line 158, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+    /* line 157, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
     .nav-bar ul li {
       padding: 14px 0px;
       text-align: right;
@@ -653,7 +648,7 @@ header {
       margin-right: 70px;
       color: white;
       list-style: none; }
-      /* line 168, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
+      /* line 167, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_header.scss */
       .nav-bar ul li a {
         font-family: 'Cairo' ,sans-serif;
         letter-spacing: 3px;
@@ -897,19 +892,8 @@ h4 {
   top: 130px;
   right: 200px; }
 
-/* line 9, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
-.temp {
-  background-color: #af473c;
-  color: #fff;
-  text-decoration: none;
-  font-size: 20px;
-  padding: 10px;
-  position: relative;
-  right: -45%;
-  margin-bottom: 10px; }
-
 /* section dividers */
-/* line 21, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
+/* line 11, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
 .line-top {
   width: 125px;
   height: 3px;
@@ -917,7 +901,7 @@ h4 {
   position: relative;
   margin-top: 20px; }
 
-/* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
+/* line 19, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
 .line-i {
   width: 50px;
   height: 1px;
@@ -925,7 +909,7 @@ h4 {
   position: relative;
   margin-top: 20px; }
 
-/* line 37, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
+/* line 27, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_about.scss */
 .line-w {
   width: 110px;
   height: 1px;
@@ -943,19 +927,8 @@ h4 {
   text-align: center;
   margin-top: 25px; }
 
-/* line 16, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
-.temp {
-  background-color: #af473c;
-  color: #fff;
-  text-decoration: none;
-  font-size: 20px;
-  padding: 10px;
-  position: relative;
-  right: -45%;
-  margin-bottom: 10px; }
-
 /*contact form styling */
-/* line 29, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+/* line 20, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .contact-form {
   display: flex;
   width: 100%;
@@ -963,7 +936,7 @@ h4 {
   align-items: center;
   padding: 10px 10px;
   margin-bottom: 50px; }
-  /* line 39, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  /* line 30, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form .container {
     margin-left: 0px;
     font-size: 16px;
@@ -978,7 +951,7 @@ h4 {
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px; }
-  /* line 55, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  /* line 46, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form input[type=text], .contact-form select, .contact-form textarea {
     width: 100%;
     color: #fff;
@@ -994,7 +967,7 @@ h4 {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px; }
-  /* line 72, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  /* line 63, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -1008,31 +981,31 @@ h4 {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px; }
-  /* line 87, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  /* line 78, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form .check {
     margin-bottom: 10px;
     margin-right: 10px; }
-  /* line 92, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  /* line 83, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form .myCheck {
     width: 100%;
     margin-bottom: 5px; }
-  /* line 98, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  /* line 89, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .contact-form input[type=submit]:hover {
     background-color: #45a049; }
 
-/* line 103, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+/* line 94, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .map {
   width: auto;
   height: 500px;
   display: flex;
   justify-content: center; }
-  /* line 109, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  /* line 100, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
   .map .mapid {
     height: 180px;
     width: 200px;
     margin: 0px;
     margin-right: 250px; }
-    /* line 115, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+    /* line 106, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
     .map .mapid .map-title {
       font-weight: 700;
       text-decoration: underline 2px; }
