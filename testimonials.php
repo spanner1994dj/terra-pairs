@@ -79,7 +79,10 @@ include("inc/header.php"); ?>
          
       </div>
 
-      <div class="leave">Dont forget to leave us your review and testaments.</div>
+      <div class="leave">
+         <p>Dont forget to leave us your review and testaments.
+         </p>
+      </div>
    </main>
    <div class="page-break"></div>
 

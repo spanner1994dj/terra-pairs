@@ -17,8 +17,7 @@
 
 .testies{
    display: flex;
-   
-   height:950px;
+   max-height:100%;
    width: 100%;
    justify-content: space-between;
    padding:75px 0 ;
@@ -30,6 +29,7 @@
    width: 22%;
    height: auto;
    padding:0 10px ;
+   padding-bottom: 30px;
 
    .checked{
       color: orange;

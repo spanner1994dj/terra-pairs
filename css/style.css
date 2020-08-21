@@ -1102,18 +1102,19 @@ h4 {
 /* line 18, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
 .testies {
   display: flex;
-  height: 950px;
+  max-height: 100%;
   width: 100%;
   justify-content: space-between;
   padding: 75px 0; }
 
-/* line 27, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
+/* line 26, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
 .story {
   border: inset 5px slategrey;
   border-radius: 3px;
   width: 22%;
   height: auto;
-  padding: 0 10px; }
+  padding: 0 10px;
+  padding-bottom: 30px; }
   /* line 34, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_testimonials.scss */
   .story .checked {
     color: orange;
