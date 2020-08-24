@@ -916,71 +916,72 @@ h4 {
 }
 
 /*contact form styling */
+/* line 18, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .contact-form {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
   padding: 10px 10px;
-  margin-bottom: 50px;
-}
-.contact-form .container {
-  margin-left: 0px;
-  font-size: 16px;
-  border-radius: 35px;
-  background-color: #af473c;
-  padding: 20px;
-  color: #fff;
-  text-transform: uppercase;
-  width: 40%;
-  justify-content: center;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
-}
-.contact-form input[type=text], .contact-form select, .contact-form textarea {
-  width: 100%;
-  color: #fff;
-  font-size: 16px;
-  padding: 12px;
-  border: 2px solid #ccc;
-  border-radius: 15px;
-  box-sizing: border-box;
-  margin-top: 7px;
-  margin-bottom: 16px;
-  resize: vertical;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-.contact-form input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  width: 100px;
-  justify-content: center;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-.contact-form .check {
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
-.contact-form .myCheck {
-  width: 100%;
-  margin-bottom: 5px;
-}
-.contact-form input[type=submit]:hover {
-  background-color: #45a049;
-}
+  margin-bottom: 50px; }
+  /* line 27, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  .contact-form .container {
+    margin-left: 0px;
+    font-size: 16px;
+    border-radius: 35px;
+    background-color: #af473c;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 40%;
+    justify-content: center;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px; }
+  /* line 43, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  .contact-form input[type=text], .contact-form select, .contact-form textarea {
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    resize: vertical;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px; }
+  /* line 60, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  .contact-form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px; }
+  /* line 75, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  .contact-form .check {
+    margin-bottom: 10px;
+    margin-right: 10px; }
+  /* line 80, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  .contact-form .myCheck {
+    width: 100%;
+    margin-bottom: 5px; }
+  /* line 86, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
+  .contact-form input[type=submit]:hover {
+    background-color: #45a049; }
 
+/* line 91, ../../../../../../../../../../../../../Users/imac/Documents/GitHub/terra-pairs/scss/layout/_contact.scss */
 .map {
   width: auto;
   height: 500px;

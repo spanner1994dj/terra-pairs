@@ -46,4 +46,48 @@ include("inc/header.php"); ?>
          </div>
       </div>
       
+      <!-- Load the JavaScript API.
+
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+
+Add a callback function to handle the token.
+
+ <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+
+Add attributes to your html button.
+
+<button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
+
+Programmatically invoke the challenge
+
+If you wish to have more control over when reCAPTCHA runs, you can use the execute method in grecaptcha object. To do this, you need to add a render parameter to the reCAPTCHA script load.
+
+    Load the JavaScript API with your sitekey.
+
+    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+
+Call grecaptcha.execute on each action you wish to protect.
+
+   <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+          });
+        });
+      }
+  </script>
+
+Send the token immediately to your backend with the request to verify. -->
+
+
+
 <?php include("inc/footer.php"); ?>
