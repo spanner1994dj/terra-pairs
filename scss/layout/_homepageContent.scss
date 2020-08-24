@@ -86,14 +86,23 @@ h4{
 .partners-ctn{
     
     .content-dash{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     
     .partners {
         display: flex;
         justify-content: space-between;
 
-        img{
+        .img-1{
+            width: 200px;
+            height: 125px;
+        }
+
+        .img-2{
+            width: 400px;
+            height: 125px;
+        }
+        .img-3{
             width: 200px;
             height: 125px;
         }

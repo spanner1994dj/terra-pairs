@@ -151,9 +151,9 @@ include("inc/header.php"); ?>
                 <div class="content-dash"></div>
             </div>
             <div class="media partners">
-                <img src="img/quarr.png" />
-                <img src="img/pabulum.png" />
-                <img src="img/mountJoy.jpg" />
+                <img class="img-1" src="img/quarr.png" />
+                <img class="img-2" src="img/pabulum.png" />
+                <img class="img-3" src="img/mountJoy.jpg" />
             </div>
         </div>
 
