@@ -103,6 +103,10 @@ include("inc/header.php"); ?>
                         rerum itaque, totam nisi.</p>
                     <i class="fas fa-quote-right"></i>
                     <div class="slide-dash"></div>
+                    <div class="quote-name">
+                        <p>Roni Herdyanzah</p>
+                        <p>Adane Energy</p>
+                    </div>
                 </div>
             </div>
             <div class="slide">
@@ -115,6 +119,11 @@ include("inc/header.php"); ?>
                         Optio quaerat consequatur minus illo ea
                         rerum itaque, totam nisi.</p>
                     <i class="fas fa-quote-right"></i>
+                    <div class="slide-dash"></div>
+                    <div class="quote-name">
+                        <p>Roni Herdyanzah</p>
+                        <p>Adane Energy</p>
+                    </div>
                 </div>
             </div>
             <div class="slide">
@@ -127,6 +136,11 @@ include("inc/header.php"); ?>
                         Optio quaerat consequatur minus illo ea
                         rerum itaque, totam nisi.</p>
                     <i class="fas fa-quote-right"></i>
+                    <div class="slide-dash"></div>
+                    <div class="quote-name">
+                        <p>Roni Herdyanzah</p>
+                        <p>Adane Energy</p>
+                    </div>
                 </div>
             </div>
         </div>

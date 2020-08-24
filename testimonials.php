@@ -12,7 +12,7 @@ include("inc/header.php"); ?>
                These are the testimony's of people who have visited us and left a review.
             </p>
       </div>
-      <div class="testies">
+      <div class="testimonials">
          <div class="story story-1">
             <h3>Story 1</h3>
             <div class="rate">

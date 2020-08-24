@@ -5,9 +5,7 @@ header{
     background-size: cover;
     height:450px;
     color: #fff;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+
     
     p{
         font-size: 20px;
@@ -15,11 +13,17 @@ header{
     }
 }
 
+.header-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+}
+
 .logo{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 40px; 
     justify-content: left;
 
     .home{
@@ -45,16 +49,9 @@ header{
 
 .action{
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    position: absolute;
-    right: 20px;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
-    margin-right: 20px;
-    margin-top: 40px;
-    width: auto;
-    height: auto ;
     //border: solid 1px blue;
 }
 
@@ -62,12 +59,11 @@ header{
     //border: solid 1px green;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     height: max-content;
     width: auto;
-    position: absolute;
-    margin-right: 40px;
-    justify-content: right;
+    
+    
+  
     
 }
 
@@ -98,8 +94,7 @@ header{
   
 .title{
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-right: 35px;
+
 
     .slogan{
         font-size: 50px;
@@ -116,10 +111,9 @@ header{
         width: 200px;
         height: 1px;
         background-color: white;
-        position: absolute;
-        right: 40px;
-        margin-top: -20px;
-
+        position: relative;
+        left: 110px;
+        margin: auto;
     }
 }
 
@@ -144,15 +138,15 @@ header{
         display: flex;
         flex-direction: row;
        //border: solid 1px green;
-        width: auto;
+        width: 1200px;
         height: 49px;
-        text-align: right;
-        justify-content: right;
+        justify-content: flex-end;
+        
         // background-color: #af473c;
         margin-top:0;
         vertical-align: middle;
-        position: absolute;
-        right: 0;
+        
+       
 
         li{
             padding:14px 0px;
