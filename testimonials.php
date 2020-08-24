@@ -4,7 +4,7 @@ $pageTitle = "Testimonials";
 
 include("inc/header.php"); ?>
 
-   <main class="testimonials">
+   <main class="testimonial">
       <div>
          <h1 class="test-title">
             Testimonials</h1>
