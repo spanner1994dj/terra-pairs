@@ -54,7 +54,7 @@
                 </div>
             </div>
         </div>
-        
+
     </header>
 
     <nav>
@@ -71,7 +71,7 @@
                             services
                         </a>
                     </li>
-                    <li class="testimonials">
+                    <li class="testimonials-1">
                         <a href="testimonials.php">
                             testimonials
                         </a>
